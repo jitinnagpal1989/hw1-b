@@ -13,7 +13,7 @@
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <hudson.tasks.Shell>
-      <command>cd JSPDemo
+      <command>cd /var/lib/jenkins/workspace/JSPDemo
 mvn package</command>
     </hudson.tasks.Shell>
   </builders>
